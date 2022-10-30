@@ -1,0 +1,40 @@
+.todoList {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clearBtn {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.left {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.todo {
+    border-top: none;
+}
+
+.todo:last-of-type {
+    border-radius: 0 0 8px 8px;
+}

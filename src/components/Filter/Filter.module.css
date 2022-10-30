@@ -1,0 +1,17 @@
+.option {
+    margin-right: 20px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+
+    cursor: pointer;
+}
+
+.option:last-of-type {
+    margin-right: 0;
+}
+
+.active {
+    font-weight: 500;
+}

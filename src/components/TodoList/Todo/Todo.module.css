@@ -1,0 +1,44 @@
+.todo {
+    position: relative;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--gray);
+    cursor: pointer;
+}
+
+.content {
+    display: inline-block;
+    width: 100%;
+    padding: 0 40px;
+
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 300;
+    word-break: break-word;
+}
+
+.active {
+    color: var(--gray);
+    text-decoration: line-through;
+}
+
+.cross {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.check {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
